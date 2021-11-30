@@ -1,0 +1,22 @@
+
+@import '~bootstrap/scss/bootstrap';
+
+
+
+ol.carousel-indicators{
+    right: 700px !important;
+    bottom: 80px !important;
+    margin-left: 10% !important;
+    background-color: royalblue !important;
+}
+
+.carousel-control-prev{
+    visibility: hidden;
+}
+
+.carousel-control-next{
+    visibility: hidden;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

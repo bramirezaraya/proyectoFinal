@@ -1,0 +1,41 @@
+<div class="container-fluid" id="artistas">
+    
+    <ngb-carousel>
+        <ng-template ngbSlide *ngFor="let artistas of listaArtistas;">
+            <div class="titulo">
+                <h2 class="titulo1">Our</h2>
+                <h2 class="titulo2">Artists</h2>
+            </div>     
+            <div class="picsum-img-wrapper imagen" >
+                <img src="../../assets/{{artistas.imagen}}" width="400px" height="400px">
+            </div>
+            <div class="carousel-caption datosArtistas">
+                <div class="nombre">
+                    <h3>{{artistas.nombre}}</h3>
+                </div>
+                <div class="descripcion">
+                    <p>{{artistas.descripcion}}</p>
+                </div>
+                <div class="d-flex justify-content-center boton">
+                    <button type="button" class="btn btn-outline-primary" routerLink="artista/{{artistas.id}}">Read More</button>
+                </div>
+            </div>  
+        </ng-template>
+    </ngb-carousel>
+
+
+
+</div>
+
+    <div>
+        <img src="../../assets/mancha.png"  width="100%" height="90px">
+   </div>
+
+<app-noticias-iii></app-noticias-iii>
+    <div>
+        <img src="../../assets/mancha.png"  width="100%" height="90px">
+    </div>
+<app-team-iv></app-team-iv>
+    <div>
+        <img src="../../assets/mancha.png"  width="100%" height="90px">
+    </div>

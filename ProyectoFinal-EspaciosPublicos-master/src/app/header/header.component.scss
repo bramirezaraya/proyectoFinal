@@ -1,0 +1,53 @@
+li.nav-item{
+    font-size: x-large;
+    padding-right: 10%;
+    width: auto;
+
+
+    a{
+        width: max-content;
+
+        a#home, a#artist, a#news{
+            padding-left: 20%;
+            padding-right: 80%;
+        }
+        
+        #signup, #register{
+            padding-right: none;
+        }
+    }
+
+}
+a.nav-link{
+    margin-right: 30%;
+}
+
+li.nav-item::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: lightseagreen;
+    margin: auto;
+    display: block;   
+}
+
+li.nav-item:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+li.nav-item a:hover{
+    color: lightseagreen;
+}
+.bg-dark.scrolled {
+    background-color: rgba(134, 137, 146, 0.931) !important;
+    transition: background-color 800ms linear;
+  }
+
+.bg-dark {
+    background:transparent !important;
+    transition:0.5s ease;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+

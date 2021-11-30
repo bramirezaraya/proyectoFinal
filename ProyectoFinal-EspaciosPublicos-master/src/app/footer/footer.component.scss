@@ -1,0 +1,75 @@
+.col-xl-3{
+    text-align: justify;
+}
+
+.row{
+    height: 100%;
+}
+
+section.d-flex.justify-content-center.justify-content-lg-between.p-md-4 {
+    font-size:larger;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(49, 49, 49);
+}
+
+.container.text-center.text-md-start.mw-100{
+    height: 545px;
+    min-height: 250px;
+    padding:2% 2% 0% 3.1%;
+
+    #map{
+        width :100%;
+        height: 100%;
+    }    
+}
+
+.col-xl-9{
+    
+    .heading {
+      background: rgba(255, 255, 255, 0.555);
+      border-bottom: 1px solid rgba(238, 238, 238, 0.753);
+      text-decoration-color: rgb(70, 69, 69);
+      height: 60px;
+      line-height: 60px;
+      padding: 0 5px;
+    }
+    .sidebar {
+        background-color: rgba(244, 246, 242, 0.486);
+        position: absolute;
+        width: 25%;
+        height: 100%;
+        border-right: 1px solid rgba(0, 0, 0, 0.25);
+        z-index: 1001;
+
+        #listings {
+            height: 100%;
+            overflow: auto;
+            padding-bottom: 60px;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .listing .item:last-child{
+          border-bottom: none;
+        }
+       
+          
+          ::-webkit-scrollbar {
+            width: 3px;
+            height: 3px;
+            border-left: 0;
+            background: rgba(0, 0, 0, 0.1);
+          }
+          
+          ::-webkit-scrollbar-track {
+            background: none;
+          }
+          
+          ::-webkit-scrollbar-thumb {
+            background: darkcyan;
+            border-radius: 0;
+          }
+    }
+}
+
